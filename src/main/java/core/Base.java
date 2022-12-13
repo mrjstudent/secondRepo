@@ -87,5 +87,6 @@ public class Base {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.MINUTES);
+		System.out.prinln("changes happend");
 	}
 }
